@@ -22,7 +22,8 @@ jobs:
           dotnet-version: 3.1.100
 
       - name: Restore NPM
-        run: npm --prefix client install
+        run: |
+          npm --prefix client install
 
       - name: Get the Version
         id: get-version
