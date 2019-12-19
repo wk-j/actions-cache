@@ -3,4 +3,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentScheduler" Version="5.3.0" />
+  </ItemGroup>
 </Project>

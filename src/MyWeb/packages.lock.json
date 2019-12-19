@@ -1,6 +1,13 @@
 {
   "version": 1,
   "dependencies": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FluentScheduler": {
+        "type": "Direct",
+        "requested": "(, )",
+        "resolved": "5.3.0",
+        "contentHash": "XBLwqw3FFdkG6qIrxg7M9mIsigZje+qKTinWZWfyr47IN6O/0z6fFUoQCVEBvY0lk1puf4hU0VnVhN/kPNZL+A=="
+      }
+    }
   }
 }
